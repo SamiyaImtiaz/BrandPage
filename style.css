@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 96vw;
+    height: 72px;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #958585; 
+    text-decoration:underline;
+}
+
+.LoginButton{
+    font-size: 1.5rem;
+    background: #D01C28;
+    border-color: #D01C28;
+    width: 75px;
+    height: 31px;
+    padding: 6px,16px,6px,16px;
+    gap: 10px;
+}
+
+.logoPic img{
+    width: 76px;
+    height: 42.75px;
+    top: 15px;
+    left: 85px;
+}
+
+
+.cardBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    width: 100%;
+
+}
+
+.rightBox img{
+    height: 487px;
+    width: 450px;
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    height: 487px;
+    width: 650px;
+    gap: 30px;
+
+}
+
+#heading h2{
+    font-family: Poppins;
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+    text-align: left;
+
+}
+
+#heading p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #5A5959;;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    opacity: 0px;
+
+}
+
+#shopBtn{
+    padding: 6px 16px 6px 16px;
+    background: #D01C28;
+    border-color: #D01C28;
+    color: azure;
+    font-size: 15px;
+}
+
+#categoryBtn{
+    padding: 6px 16px 6px 16px;
+    color: #5A5959;
+    font-size: 15px;
+}
+
+.icons{
+    display: flex;
+}
+.icons img{
+    width: 30px;
+    height: 25px;
+}
